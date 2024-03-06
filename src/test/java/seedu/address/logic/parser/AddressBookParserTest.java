@@ -33,7 +33,7 @@ import seedu.address.testutil.PersonBuilder;
 import seedu.address.testutil.PersonUtil;
 
 public class AddressBookParserTest {
-
+//added every save file ends with a line break
     private final AddressBookParser parser = new AddressBookParser();
 
     @Test
