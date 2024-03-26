@@ -49,7 +49,7 @@
     {
       "src": "DeveloperGuide.md",
       "headings": {
-        "ab-3-developer-guide": "AB-3 Developer Guide",
+        "rainbow-dragon-developer-guide": "Rainbow Dragon Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -63,6 +63,7 @@
         "add-functon": "Add functon",
         "edit-function": "Edit function",
         "edit-function-2": "Edit function",
+        "deletecategory-function": "DeleteCategory function",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
