@@ -51,6 +51,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "edit-function": "Edit function",
+        "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
@@ -135,11 +136,43 @@
       "headingKeywords": {}
     },
     {
+      "src": "team/HongRay.md",
+      "headings": {
+        "project-rainbow-dragon-postmortem": "Project: Rainbow Dragon Postmortem"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "team/johndoe.md",
       "title": "John Doe's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/members/Cedricaca.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/members/Chengzhen.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/members/Xiaoyang.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/members/Xuyan.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/members/hongRay.md",
+      "headings": {},
       "headingKeywords": {}
     },
     {
