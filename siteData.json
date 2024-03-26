@@ -16,6 +16,16 @@
       "headingKeywords": {}
     },
     {
+      "src": "Cedric.md",
+      "headings": {
+        "enhancement-added-entry-class": "Enhancement Added: Entry Class",
+        "description": "Description",
+        "how-is-it-implemented": "How is it implemented",
+        "why-it-is-implemented-this-way": "Why it is implemented this way"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "Configuration.md",
       "title": "Configuration guide",
       "headings": {
