@@ -93,8 +93,8 @@ Edits an existing person in the address book.
 Format: `edit INDEX [c/CATEGORY] [d/DESCRIPTION] [t/TAG]…​`
 
 * Edits the person at the specified `INDEX`. The index refers to the index number shown in the displayed person list. The index **must be a positive integer** 1, 2, 3, …​
-* The category you want to edit must **exist**. 
-* Description must be provided if you want to change a description for a category.  
+* The category you want to edit must **exist**.
+* Description must be provided if you want to change a description for a category.
 * When editing tags, the existing tags of the person will be removed i.e adding of tags is not cumulative.
 * You can remove all the person’s tags by typing `t/` without
     specifying any tags after it.

@@ -10,8 +10,8 @@
 
 ![Ui](images/Ui.png)
 
-**Rainbow Dragon** is an addressbook gaming app that uses CLI (Command Line Interface) tools that are designed for gamers who wants to **record detailed information about other players,** 
-**manage characters**, **track progress**, **add custom fields** to record and many more . It is ideal for those gamers that values **efficiency**, a **rich text-based interface** 
+**Rainbow Dragon** is an addressbook gaming app that uses CLI (Command Line Interface) tools that are designed for gamers who wants to **record detailed information about other players,**
+**manage characters**, **track progress**, **add custom fields** to record and many more . It is ideal for those gamers that values **efficiency**, a **rich text-based interface**
 and the ability to find information quickly without using their **mouse**.
 
 * If you are interested in using Rainbow Dragon, head over to the [_Quick Start_ section of the **User Guide**](UserGuide.html#quick-start).
