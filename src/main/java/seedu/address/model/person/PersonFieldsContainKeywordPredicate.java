@@ -39,7 +39,9 @@ public class PersonFieldsContainKeywordPredicate implements Predicate<Person> {
      */
     @Override
     public boolean test(Person person) {
+        assert categoryDescriptionMap != null;
         boolean matchesCategoryDescription = categoryDescriptionMap.entrySet().stream().anyMatch(entry -> {
+            assert entry.getKey() != null;
             Optional<String> personCategoryDescription = Optional.ofNullable(person.getEntry(entry.getKey().trim()))
                     .map(Entry::getDescription)
                     .map(String::toLowerCase);
