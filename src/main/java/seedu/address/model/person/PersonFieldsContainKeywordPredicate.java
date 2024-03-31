@@ -55,6 +55,7 @@ public class PersonFieldsContainKeywordPredicate implements Predicate<Person> {
         boolean matchesTags = person.getTags().stream().anyMatch(personTag ->
             tags.stream().anyMatch(searchTag ->
                 personTag.tagName.toLowerCase().contains(searchTag.toLowerCase())));
+        assert (!categoryDescriptionMap.isEmpty() && !tags.isEmpty());
         return tags.isEmpty() ? matchesCategoryDescription
                 : !categoryDescriptionMap.isEmpty()
                 ? matchesTags && matchesCategoryDescription

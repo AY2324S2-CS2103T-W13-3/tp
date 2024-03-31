@@ -52,6 +52,8 @@ public class FindCommandParser implements Parser<FindCommand> {
         if (isTagPresent) {
             tags.addAll(new HashSet<>(argMultimap.getAllValues(PREFIX_TAG)));
         }
+        assert categoryDescriptionMap != null;
+        assert tags != null;
         if (categoryDescriptionMap.isEmpty() && tags.isEmpty()) {
             throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, FindCommand.MESSAGE_USAGE));
         }
