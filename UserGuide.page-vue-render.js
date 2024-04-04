@@ -5,7 +5,7 @@ with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"sticky":""
 };
     var pageVueStaticRenderFns = [function anonymous(
 ) {
-with(this){return _c('p',[_v("#"),_c('strong',[_v("Rainbow Dragon User Guide")])])}
+with(this){return _c('h1',{attrs:{"id":"rainbow-dragon-user-guide"}},[_c('strong',[_v("Rainbow Dragon User Guide")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#rainbow-dragon-user-guide","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Welcome to the Rainbow Dragon User Guide! "),_c('br'),_v(" "),_c('br'),_v("\nIf you are:")])}
@@ -23,34 +23,34 @@ with(this){return _c('p',[_c('a',{attrs:{"href":"#quick-start"}},[_v("Quick star
 with(this){return _c('p',[_c('a',{attrs:{"href":"#features"}},[_v("Features")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"#viewing-help--help"}},[_v("Viewing help : help")])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"#viewing-help-help"}},[_v("Viewing help : help")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"#adding-a-person--add"}},[_v("Adding a person: add")])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"#adding-a-person-add"}},[_v("Adding a person: add")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"#adding-an-entry-to-a-person--addcategory"}},[_v("Adding an entry to a person")])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"#adding-an-entry-to-a-person-addcategory"}},[_v("Adding an entry to a person")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"#listing-all-persons--list"}},[_v("Listing all persons : list")])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"#listing-all-persons-list"}},[_v("Listing all persons : list")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"#editing-a-person--edit"}},[_v("Editing a person : edit")])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"#editing-a-person-edit"}},[_v("Editing a person : edit")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"#locating-persons-by-category-and-description-or-by-tag--find"}},[_v("Locating persons by category and description or by tag: find")])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"#locating-persons-by-category-and-description-or-by-tag-find"}},[_v("Locating persons by category and description or by tag: find")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"#deleting-a-person--delete"}},[_v("Deleting a person : delete")])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"#deleting-a-person-delete"}},[_v("Deleting a person : delete")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"#deleting-a-category-of-a-person--deletecategory"}},[_v("Deleting a category of a person")])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"#deleting-a-category-of-a-person-deletecategory"}},[_v("Deleting a category of a person")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"#clearing-all-entries--clear"}},[_v("Clearing all entries : clear")])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"#clearing-all-entries-clear"}},[_v("Clearing all entries : clear")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"#exiting-the-program--exit"}},[_v("Exiting the program : exit")])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"#exiting-the-program-exit"}},[_v("Exiting the program : exit")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('a',{attrs:{"href":"#saving-the-data"}},[_v("Saving the data")])])}
@@ -227,6 +227,6 @@ with(this){return _c('h2',{attrs:{"id":"command-summary"}},[_v("Command summary"
 with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticClass:"markbind-table table table-bordered table-striped"},[_c('thead',[_c('tr',[_c('th',[_v("Action")]),_v(" "),_c('th',[_v("Format, Examples")])])]),_v(" "),_c('tbody',[_c('tr',[_c('td',[_c('strong',[_v("Add")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/NAME [t/TAG]…​")]),_v(" "),_c('br'),_v(" e.g., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/James Ho t/friend t/colleague")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Clear")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("clear")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("addCategory")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addCategory 1 c/class d/warrior")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("deleteCategory")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("deleteCategory 1 c/class")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Delete")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete INDEX")]),_c('br'),_v(" e.g., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 3")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Edit")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit INDEX [c/CATEGORY] [d/DESCRIPTION] …​")]),_c('br'),_v(" e.g.,"),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 2 c/clan d/rainbow")]),_v(" "),_c('br'),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit INDEX [t/TAG]")]),_v(" "),_c('br'),_v(" e.g.,"),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 1 t/warrior t/mage")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Find")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find KEYWORD [MORE_KEYWORDS]")]),_c('br'),_v(" e.g., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find James Jake")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("List")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Help")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")])])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Thu, 4 Apr 2024, 14:14:55 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Thu, 4 Apr 2024, 14:36:07 GMT+8]")])])])}
 }];
   
