@@ -116,7 +116,7 @@
         "adding-a-person-add": "Adding a person: add",
         "editing-a-person-edit": "Editing a person : edit",
         "adding-an-entry-to-a-person-addcategory": "Adding an entry to a person : addCategory",
-        "locating-persons-by-category-and-description-or-by-tag-find": "Locating persons by category and description or by tag: find",
+        "finding-persons-by-category-and-description-or-by-tag-find": "Finding persons by category and description or by tag: find",
         "deleting-a-person-delete": "Deleting a person : delete",
         "deleting-a-category-of-a-person-deletecategory": "Deleting a category of a person : deleteCategory",
         "clearing-all-entries-clear": "Clearing all entries : clear",
