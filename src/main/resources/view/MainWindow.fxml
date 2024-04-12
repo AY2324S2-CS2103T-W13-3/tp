@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.stage.*?>
 
-<fx:root minHeight="600" minWidth="900" onCloseRequest="#handleExit" title="Rainbow Dragon" type="javafx.stage.Stage" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root minHeight="600" minWidth="450" onCloseRequest="#handleExit" title="Rainbow Dragon" type="javafx.stage.Stage" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
   <icons>
     <Image url="@/images/RD_Logo.png" />
   </icons>
@@ -19,9 +19,9 @@
         <URL value="@Extensions.css" />
       </stylesheets>
 
-      <SplitPane dividerPositions="0.6">
+      <SplitPane dividerPositions="0.7"> <!-- Adjust dividerPositions as needed -->
         <!-- Left side -->
-        <VBox maxWidth="300" minWidth="300" prefWidth="300">
+        <VBox maxWidth="300" minWidth="200" prefWidth="250">
           <MenuBar fx:id="menuBar" style="-fx-background-color: #d6b47a;" VBox.vgrow="NEVER">
             <Menu mnemonicParsing="false" text="File">
               <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Exit" />
