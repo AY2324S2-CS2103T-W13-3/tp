@@ -42,9 +42,5 @@ EntryList *--> "*" Entry
 Person -[hidden]up--> I
 UniquePersonList -[hidden]right-> I
 
-Name -[hidden]right-> Phone
-Phone -[hidden]right-> Address
-Address -[hidden]right-> Email
-
 ModelManager --> "~* filtered" Person
 @enduml
