@@ -30,7 +30,7 @@ deactivate AddressBookParser
 LogicManager -> RedoCommand : execute()
 activate RedoCommand
 
-RedoCommand -> Model : undo()
+RedoCommand -> Model : redo()
 activate Model
 
 Model --> RedoCommand
